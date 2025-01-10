@@ -9,12 +9,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
+  background: linear-gradient(to right bottom, #4a90e2, #50c9c3);
 }
 a {
   display: inline-block;
-  color: lightgrey;
-  font-size: 16px;
+  color: white;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   white-space: nowrap;
   padding: 12px;
@@ -22,10 +22,11 @@ a {
   border-radius: 30px;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
+  
 }
 
 a:hover {
-  background: rgba(0, 0, 0, 0.23);
+  background: rgba(255, 255, 255, 0.1);
   color: white;
   transform: scale(1.03);
   text-decoration: none;
