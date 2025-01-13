@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
+    <title>Responsive Cart Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
-    </div>
-    <!-- Happy coding 😊 -->
-    <script src="./script.js"></script>
+    <header>
+        <nav>
+            <div class="logo">ShopLogo</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="cart-icon">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h1>Shopping Cart</h1>
+            <div id="cart-list" class="cart-items"></div>
+            <div class="cart-totals">
+                <p>Subtotal: <span id="subtotal">₹0.00</span></p>
+                <p>Total: <span id="total">₹0.00</span></p>
+                <button id="checkout-btn">Check Out</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ShopLogo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
